@@ -56,6 +56,10 @@ body {
     text-align: center;
 }
 
+h1, h2, h3 {
+    font-weight: 700;
+    line-height: 1.5em;
+}
 section {
     display: flex;
     padding: 80px 30px;
@@ -130,14 +134,19 @@ hr {
     margin-bottom: 30px;
 }
 .intro-box h1 {
-    font-size: 46px;
-    font-weight: 700;
-    line-height: 1.5em;
+    font-size: 32px;
 }
 .intro-box h3 {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 300;
-    line-height: 1.5em;
+}
+@media (min-width: 480px) {
+    .intro-box h1 {
+        font-size: 46px;
+    }
+    .intro-box h3 {
+        font-size: 28px;
+    }
 }
 /* Navigation */
 .header {
