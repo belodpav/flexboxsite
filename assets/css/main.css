@@ -108,6 +108,7 @@ hr {
 /* Banner */
 .banner {
     height: 100vh;
+    min-height: 600px;
     justify-content: center;
     background: url('../images/bg.jpg'), #333;
     background-repeat: no-repeat;
