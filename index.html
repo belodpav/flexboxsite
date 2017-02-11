@@ -2,24 +2,29 @@
 <html lang='en'>
     <head>
         <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
         <title>Flex Box Website</title>
         
         <!-- Cutom Fonts -->
         <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css'>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Quicksand:300,400,700" rel="stylesheet">
         <!-- Theme CSS -->
         <link rel='stylesheet' href='assets/css/main.css'>
     </head>
     <body>
-       <header>
-           <h1 class='logo'>Website logo</h1>
-           <nav class='navbar'>
+      <header class="header">
+            <h1 class='logo'>Website logo</h1>
+            <nav class='navbar'>
                <ul>
                    <li><a href='#'>Home</a></li>
                    <li><a href='#'>Products</a></li>
                    <li><a href='#'>About</a></li>
                    <li><a href='#'>contacts</a></li>
                </ul>
-           </nav>
+            </nav>
+            <div class='menu-bars'>
+                <i></i><i></i><i></i>
+            </div>
        </header>
        <section class='banner'>
            <div class='intro-box'>
@@ -36,14 +41,14 @@
            </header>
            <div class='container'>
                <ul>
-                   <li class='img-small'><img src='assets/images/img-01.jpg' alt='coast'></li>
-                   <li class='img-large'><img src='assets/images/img-03.jpg' alt='coast'></li>
-                   <li class='img-large'><img src='assets/images/img-04.jpg' alt='coast'></li>
-                   <li class='img-small'><img src='assets/images/img-02.jpg' alt='coast'></li>
+                   <li class='img-small'><div class='img' num='1'></div></li>
+                   <li class='img-large'><div class='img' num='2'></div></li>
+                   <li class='img-large'><div class='img' num='3'></div></li>
+                   <li class='img-small'><div class='img' num='4'></div></li>
                </ul>
            </div>
        </section>
-       <section class='features'>
+       <section class='features bg-style-second'>
            <header class='section-header'>
                <h2>Features And Services</h2>
                <p>Ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, eligendi</p>
@@ -51,26 +56,20 @@
            </header>
            <div class='container'>
                <ul>
-                   <li>
-                       <div class='features-card'>
-                           <i class='fa fa-camera-retro'></i>
-                           <h3>Photography</h3>
-                           <p>Psum dolor sit amet, consectetur adipisicing elit. Saepe, commodi</p>
-                       </div>
+                   <li class='features-card'>
+                       <i class='fa fa-camera-retro'></i>
+                       <h3>Photography</h3>
+                       <p>Psum dolor sit amet, consectetur adipisicing elit. Saepe, commodi</p>
                    </li>
-                   <li>
-                       <div class='features-card'>
-                           <i class='fa fa-cubes'></i>
-                           <h3>Web Development</h3>
-                           <p>Psum dolor sit amet, consectetur adipisicing elit. Saepe, commodi</p>
-                       </div>
+                   <li class='features-card'>
+                       <i class='fa fa-cubes'></i>
+                       <h3>Web Development</h3>
+                       <p>Psum dolor sit amet, consectetur adipisicing elit. Saepe, commodi</p>
                    </li>
-                   <li>
-                       <div class='features-card'>
-                           <i class='fa fa-newspaper-o'></i>
-                           <h3>Content Editing</h3>
-                           <p>Psum dolor sit amet, consectetur adipisicing elit. Saepe, commodi</p>
-                       </div>
+                   <li class='features-card'>
+                       <i class='fa fa-newspaper-o'></i>
+                       <h3>Content Editing</h3>
+                       <p>Psum dolor sit amet, consectetur adipisicing elit. Saepe, commodi</p>
                    </li>
                </ul>
            </div>    
@@ -94,7 +93,7 @@
                </ul>
            </div>
        </section>
-       <section class='contact'>
+       <section class='contact bg-style-second'>
            <header class='section-header'>
                <h2>Features And Services</h2>
                <p>Ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, eligendi</p>
